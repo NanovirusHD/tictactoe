@@ -1,8 +1,8 @@
 // Tic Tac Toe
 var tictactoe = (function() {
   // Constants
-  var X = '🎄',
-      O = '☃',
+  var X = 'X',
+      O = 'O',
       BLANK = ' ';
 
   // Variables
