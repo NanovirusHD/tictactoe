@@ -40,7 +40,7 @@ var tictactoe = (function() {
   // true; if the game is not over, return false
   var gameOver = function() {
     var winCombinations = [ [0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], 
-                            [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6], [1,3,7,9] ],
+                            [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6] ],
         winIndex = -1;
     $.each( winCombinations, function( index, winCombination ) {
       if( allEqual( winCombination ) ){
