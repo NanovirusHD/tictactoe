@@ -9,7 +9,7 @@ var tictactoe = (function() {
   var curPlayer = X,
       moves = 0,
       board = [ BLANK, BLANK, BLANK, BLANK, BLANK, 
-                BLANK, BLANK, BLANK, BLANK ];
+                BLANK, BLANK, BLANK, BLANK, BLANK, BLANK, BLANK ];
 
   var displayMessage = function( message ) {
     $( '.message' ).html( message );
