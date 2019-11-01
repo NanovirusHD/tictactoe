@@ -67,23 +67,22 @@ header h1 {
   font-size: 26px;
   border: 1px solid #fff;
   color: #fff;
+  background-color:   #6bb565;
+  background: -webkit-#6bb565;
+  background:    -moz-#6bb565;
+  background:         #6bb565;
+  display: none;
+}
+.play-again:hover {
   background-color:   #a1d3b0;
   background: -webkit-#a1d3b0;
   background:    -moz-#a1d3b0;
   background:         #a1d3b0;
-  display: none;
-}
-.play-again:hover {
-  background-color: #6bb565;
-  background: -webkit-#6bb565;
-  background:    -moz-#6bb565;
-  background:         #6bb565;
 }
 
 /* Gameboard */
 .gameboard {
   overflow: hidden;
-  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .gameboard div {
   background-color: #d9d9d9;
