@@ -72,10 +72,10 @@ var tictactoe = (function() {
     var endMessage;
 
     if( $.isArray(endFormation) ){
-      endMessage = 'Game Over.  Player ' + curPlayer + ' Wins';
+      endMessage = 'Game Over.\n  Player ' + curPlayer + ' Wins';
       showWinFormation( endFormation );
     } else {
-      endMessage = 'Game Over.  Draw Game';
+      endMessage = 'Game Over.\n  Draw Game';
     }
     $( '.message' ).addClass( 'end-message' );
     displayMessage( endMessage );
